@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<RelativeLayout android:layout_width="match_parent"
+			android:layout_height="match_parent" android:orientation="vertical">
+
+			<TextView android:text="@string/author_name" style="@style/Title"
+				android:id="@+id/aut_name" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+			<ImageView android:id="@+id/aut_image"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_gravity="center" android:scaleType="fitCenter" android:minHeight="250sp"
+				android:padding="20dp" android:layout_below="@id/aut_name" />
+
+			<TextView android:text="@string/auth_dates" style="@style/Subtitle" android:layout_centerHorizontal="true"
+				android:id="@+id/aut_date" android:layout_width="wrap_content" android:layout_centerVertical="true"
+				android:layout_height="wrap_content" android:layout_below="@id/aut_image" />
+
+			<View style="@style/Line" android:layout_below="@id/aut_date" android:id="@+id/verticalelijn" />
+
+			<TextView android:text="@string/auth_bio"
+				android:id="@+id/aut_bio" android:inputType="textMultiLine" style="@style/Body"
+				android:padding="20dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_below="@id/verticalelijn" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

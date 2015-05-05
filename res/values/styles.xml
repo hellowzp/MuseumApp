@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Title">
+		<item name="android:paddingLeft">5dip</item>
+		<item name="android:paddingRight">5dip</item>
+		<item name="android:textColor">#9acd32</item>
+		<item name="android:typeface">monospace</item>
+	</style>
+	
+	<style name="Subtitle">
+		<item name="android:paddingLeft">5dip</item>
+		<item name="android:paddingRight">5dip</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="Body">
+		<item name="android:paddingLeft">5dip</item>
+		<item name="android:paddingRight">5dip</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">italic</item>
+	</style>
+
+	<style name="Link">
+		<item name="android:paddingLeft">5dip</item>
+		<item name="android:paddingRight">5dip</item>
+		<item name="android:textColor">#0000ff</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="Line">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">2px</item>
+		<item name="android:layout_marginLeft">10dp</item>
+		<item name="android:layout_marginRight">10dp</item>
+		<item name="android:background">@drawable/line_gradient</item>
+	</style>
+</resources>

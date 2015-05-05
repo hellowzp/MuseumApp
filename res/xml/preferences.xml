@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory 
+        android:title="@string/app_settings"
+        android:key="device_settings">
+		<CheckBoxPreference
+  		    android:key="simulate_location"
+            android:summary="@string/simulate_locations_description"
+            android:title="@string/simulate_locations" 
+            android:defaultValue="true"
+  		/>
+  		
+        <ListPreference 
+            android:key="location_interval"
+            android:title="@string/location_updates"
+            android:summary="@string/location_updates_description"
+            android:defaultValue="1000" 
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+            android:dependency="simulate_location"
+        />
+        
+		<EditTextPreference 
+            android:key="notify_distance"
+            android:summary="@string/artifact_alert_distance_description"
+            android:title="@string/artifact_alert_distance" 
+            android:dialogTitle="@string/artifact_alert_distance"
+            android:dialogMessage="@string/numbers_only"    
+            android:defaultValue="500"
+            android:dependency="simulate_location" 
+            />
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>

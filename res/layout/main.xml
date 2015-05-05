@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:id="@+id/scrollView1">
+
+	<LinearLayout 
+		
+		android:orientation="vertical" android:id="@+id/mainLayout"
+		    android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	
+		<ImageView android:id="@+id/logo" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:src="@drawable/museum_logo"
+			android:layout_gravity="center" android:layout_marginTop="5sp"
+			android:contentDescription="@string/appLogoDescription"/>
+	
+		<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/logoTitle" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center"
+			android:layout_marginTop="5sp" android:text="@string/app_name"/>
+			
+		<Button android:layout_height="wrap_content"
+			android:id="@+id/continueButton"
+			android:layout_marginTop="5sp"
+			android:layout_gravity="center" android:text="@string/continueText"
+			android:layout_width="fill_parent"/>
+			
+		<Button android:id="@+id/configButton" android:layout_height="wrap_content"
+			android:layout_marginTop="5sp"
+			android:layout_gravity="center" android:text="@string/configureButtonText"
+			android:layout_width="fill_parent"/>
+	
+	</LinearLayout>        
+        
+</ScrollView>
+
+

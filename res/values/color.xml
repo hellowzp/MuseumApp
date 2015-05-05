@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#000000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="artifact_normal">#34466F</color>
+	<color name="museum_theme_color">#b0b0ff</color>	
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ageText">Age:</string>
+    <string name="app_name">Museum App</string>
+	
+	<string name="configOption">Configuration</string>
+	<string name="aboutOption">About</string>
+	
+	<string name="continueText">Continue</string>
+	<string name="configureButtonText">Configure</string>
+
+	<string name="more">About the creator</string>
+	<string name="yes">yes</string>
+	<string name="no">no</string>
+		
+	<string name="showArtifact">Show nearby artifact?</string>
+	
+
+	<string name="app_settings">Application Settings</string>
+	<string name="simulate_locations_description">Enable the simulation of indoor locations</string>
+	<string name="simulate_locations">Simulate indoor locations</string>
+	<string name="location_updates">Location Update interval</string>
+	<string name="location_updates_description">Define how often updates will be performed</string>
+	<string name="artifact_alert_distance">Maximum notification distance</string>
+	<string name="artifact_alert_distance_description">Distance from artifact (in cm) for the user to be notified</string>
+	<string name="numbers_only">Numbers only</string>
+	
+	<string name="author">Creator</string>
+	<string name="creation_year">(year)</string>
+	<string name="artifact_info">Information about the artifact</string>
+	<string name="location">Location</string>
+	<string name="artifact_title">Artifact name</string>
+	<string name="author_name">Author name</string>
+	<string name="auth_dates">Dates of birth and decease</string>
+	<string name="auth_bio">Short biography</string>
+	
+	<string name="creator">The MSEC Team</string>
+	<string name="createdBy">Created by: </string>
+	<string name="creationDate">Creation Date: </string>
+	<string name="version">Version: </string>
+	
+	<string name="about">About</string>
+	
+	<string name="display_alerts_description">Display nearby artifact alert or immediately show info?</string>
+	<string name="display_alerts">Show nearby artifact alert</string>
+	
+	<string name="view_video">Click here to watch</string>
+	<string name="listen_to_audio">Click here to listen</string>
+	
+	<string name="initialising_floorplan">Initialising floorplan...</string>
+	<string name="appLogoDescription">App logo</string>
+	<string name="aboutImageContentDescription">Image of About Activity</string>
+	<string name="networktasks_progress">Network tasks in progress...</string>
+	<string name="networktasks_finished">Network tasks finished. Closing dialog...</string>
+	<string name="shareOption">Share</string>
+	<string name="contactChooserTitle">Share with:</string>
+	<string name="cancelString">Cancel</string>
+	<string name="continueString">Continue</string>
+	<string name="artifactShareName">Name</string>
+	<string name="artifactShareAuthor">Creator</string>
+	<string name="artifactShareYear">Year</string>
+	<string name="artifactShareLocation">Location</string>
+	<string name="artifactShareMedia">Additional media</string>
+	
+	    
+</resources>
