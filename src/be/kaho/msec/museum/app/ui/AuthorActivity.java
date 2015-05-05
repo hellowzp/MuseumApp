@@ -32,10 +32,10 @@ public class AuthorActivity extends Activity {
 		final String lang = Util.getSystemLanguage();
 		final Artifact artifact = (Artifact)getIntent().getExtras().get("artifact");
 		
-//		NetworkingHelper.executeInBackground(this, new Runnable() {
-//			
-//			@Override
-//			public void run() {
+		NetworkingHelper.executeInBackground(this, new Runnable() {
+			
+			@Override
+			public void run() {
 				
 				
 				final ClientResource resource = new ClientResource(
@@ -71,7 +71,7 @@ public class AuthorActivity extends Activity {
 				
 				resource.release();
 				
-//			}
-//		});
+			}
+		});
 	}
 }
